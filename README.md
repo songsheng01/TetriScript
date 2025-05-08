@@ -88,7 +88,7 @@ Triplet order is **left → right** (column 0, 1, 2).
 
 One tetromino drop per line:
 
-<ColourLetter> <Shape> <Rotation> <Column> ; optional comment
+ColourLetter Shape Rotation Column ; optional comment
 
 
 * **ColourLetter** ∈ `C B O Y G P R`  

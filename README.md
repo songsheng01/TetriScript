@@ -11,7 +11,7 @@
 4. [Opcode Reference](#opcode-reference)
 5. [Source‑File Format](#source-file-format)
 6. [Sample Program – “+1 then Print”](#sample-program--1-then-print)
-7. [Full “Hello World!” Script](#full-hello-world-script)
+7. [Hello Tetris!](#full-hello-world-script)
 8. [Design Tips](#design-tips)
 9. [Turing‑Completeness Sketch](#turing-completeness-sketch)
 10. [License](#license)
@@ -226,7 +226,7 @@ O G B   ; OUT
 
 ---
 
-### Design Tips
+## Design Tips
 * **Tower method** – Build three-column “opcode towers” (e.g., permanent
   `R G Y` in columns 0-2) and use columns 3-9 to pad the rest of each row.  
 * **Loop balancing** – Place `LOOP START` / `LOOP END` rows so they clear in
@@ -238,7 +238,7 @@ O G B   ; OUT
 
 ---
 
-### Turing-Completeness Sketch
+## Turing-Completeness Sketch
 TetriScript provides:
 1. **Pointer motion** (`PTR+`, `PTR-`) for unbounded head movement.  
 2. **Cell mutation** (`INC`, `DEC`) for arbitrarily changing tape values.  
